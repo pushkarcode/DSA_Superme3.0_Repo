@@ -225,7 +225,5 @@ int main()
     // int arr[] = {1,2,3,4,5};
     // arr = arr+1;
 
-    char *ptr = "pusgkae";
-
-        return 0;
+    return 0;
 }
