@@ -173,7 +173,7 @@ void SortZeroAndOneAndTwo(int arr[], int n)
             mid++, low++;
         }
         else if (arr[mid] == 1)
-        {
+        { 
             mid++;
         }
         else if (arr[mid] == 2)
@@ -324,17 +324,17 @@ void checkThreeSum(int arr[], int n, int target)
     }
 }
 
-void rotateArray(int arr[], int size, int n)
+void rotateArray(int arr[], int size, int shift)
 {
-    n = n % size;
+    shift = shift % size;
 
-    if (n == 0)
+    if (shift == 0)
         return;
 
     // ! step -1 copy last shift element to temp array
     int temp[1000];
     int index = 0;
-    for (int i = size - n; i < size; i++)
+    for (int i = size - shift; i < size; i++)
     {
         temp[index] = arr[i];
         index++;
@@ -342,14 +342,14 @@ void rotateArray(int arr[], int size, int n)
     // ! step -2 shift array elements by final shift element
     for (int i = size - 1; i >= 0; i--)
     {
-        if (i - n >= 0)
+        if (i - shift >= 0)
         {
-            arr[i] = arr[i - n];
+            arr[i] = arr[i - shift];
         }
     }
 
     //! step -3 copy temp array to original array
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < shift; i++)
     {
         arr[i] = temp[i];
     }
