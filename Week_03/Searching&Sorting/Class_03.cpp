@@ -78,15 +78,15 @@ int main()
     //* Output: -5
     //* Explanation: 10/-2 = -5
 
-    // int dividend = 65;
-    // int divisor = -5;
+    int dividend = 65;
+    int divisor = -5;
     // mission to find Qutioned
-    // int ans = getQuotient(abs(dividend), abs(divisor));
-    // if ((dividend < 0 && divisor > 0) || (dividend > 0 && divisor < 0))
-    // {
-    //     ans = 0 - ans;
-    // }
-    // cout << "Final ans: " << ans << endl;
+    int ans = getQuotient(abs(dividend), abs(divisor));
+    if ((dividend < 0 && divisor > 0) || (dividend > 0 && divisor < 0))
+    {
+        ans = 0 - ans;
+    }
+    cout << "Final ans: " << ans << endl;
 
     //! --------------Secand QUestion----------------------------------
 
@@ -104,6 +104,8 @@ int main()
     // int key = 10;
     // int ans = binarySearch(arr, key);
     // cout << "target At index: " << ans << endl;
+
+
 
     //!-------------------(odd Occuring Elemewnt)----------------
 

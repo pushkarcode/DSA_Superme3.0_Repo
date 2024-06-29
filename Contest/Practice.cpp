@@ -441,8 +441,8 @@ int main()
     // {
     //     // reverse(arr[i].begin(), arr[i].end());
     //     int s = 0;
-    //     int e = arr[i].size() - 1;
-    //     while (s < e){
+    //     int e1 = arr[i].size() - 1;
+    //     while (s < e1){
     //         swap(arr[i][s], arr[i][e]);
     //         s++;
     //         e--;
@@ -497,6 +497,79 @@ int main()
     //     }
     // }
     // return -1;
+
+    // int arr[] = {20, 20, 20, 20, 20, 20, 20, 60, 70};
+    // int target = 20;
+    // int n = 9;
+
+    // int s = 0, e = n - 1;
+    // int mid = s + (e - s) / 2;
+    // int firstocc = -1;
+    // while (s <= e)
+    // {
+    //     if (arr[mid] == target)
+    //     {
+    //         // ans found --> may or may not be first occurance
+    //         // store ans compute
+    //         firstocc = mid;
+    //         // first occurance search in (left side)
+    //         e = mid - 1;
+    //     }
+    //     else if (target > arr[mid])
+    //         s = mid + 1;
+    //     else
+    //         e = mid - 1;
+    //     mid = s + (e - s) / 2;
+    // }
+    // cout << firstocc << endl;
+
+    // int s1 = 0, e1 = n - 1;
+    // int mid = s1 + (e1 - s1) / 2;
+    // int lastocc = -1;
+    // while (s1 <= e1)
+    // {
+    //     if (arr[mid] == target)
+    //     {
+    //         // ans found --> may or may not be first occurance
+    //         // store ans compute
+    //         lastocc = mid;
+    //         // first occurance search in (left side)
+    //         s1 = mid + 1;
+    //     }
+    //     else if (target > arr[mid])
+    //         s1 = mid + 1;
+    //     else
+    //         e1 = mid - 1;
+    //     mid = s1 + (e1 - s1) / 2;
+    // }
+
+    // cout << lastocc << endl;
+
+    // vector<int> arr = {10, 20, 70, 40, 30, 10};
+    // int n = arr.size();
+    // int ans = -1;
+    // int s = 0;
+    // int e = n - 1;
+    // int mid = s + (e - s) / 2;
+    // while (s <= e)
+    // {
+    //     if (arr[mid] < arr[mid + 1])
+    //     {
+    //         s = mid + 1;
+    //     }
+    //     else
+    //     {
+    //         ans = arr[mid];
+    //         e = mid - 1;
+    //     }
+    //     mid = s + (e - s) / 2;
+    // }
+
+    // cout << "pivat elemet: " << ans << endl;
+  
+
+  
+
 
     return 0;
 }
