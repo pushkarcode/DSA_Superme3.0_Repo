@@ -5,7 +5,9 @@ using namespace std;
 
 bool myComp(int &a, int &b)
 {
-    return a > b;
+    // return a > b; //increasing
+    return a < b; //decreasing
+
 }
 int main()
 {

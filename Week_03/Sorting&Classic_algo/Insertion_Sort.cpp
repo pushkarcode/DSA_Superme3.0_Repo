@@ -18,6 +18,8 @@ int main()
         arr[j + 1] = key;
     }
 
+  
+
     for (auto &&i : arr)
     {
         cout << i << " ";

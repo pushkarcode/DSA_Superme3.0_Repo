@@ -291,27 +291,60 @@ int main()
 
     // koko loves to eat banana
 
-    vector<int> arr = {30, 11, 23, 4, 20};
+    // vector<int> arr = {30, 11, 23, 4, 20};
+    // int n = arr.size();
+    // int s = 0;
+    // int h = 5, ans = -1;
+    // int e = *max_element(arr.begin(), arr.end());
+
+    // while (s <= e)
+    // {
+    //     int mid = s + (e - s) / 2;
+    //     if (kokoeating(arr, h, mid))
+    //     {
+    //         ans = mid;
+    //         e = mid - 1;
+    //     }
+    //     else
+    //     {
+    //         s = mid + 1;
+    //     }
+    // }
+
+    // cout << ans;
+
+    vector<int> arr = {44, 33, 55, 22, 11};
     int n = arr.size();
-    int s = 0;
-    int h = 5, ans = -1;
-    int e = *max_element(arr.begin(), arr.end());
 
-    while (s <= e)
+    // for (int i = 0; i < n; i++)
+    // {
+    //     for (int j = 0; j < (n - i - 1); j++)
+    //     {
+    //         if (arr[j] > arr[j + 1])
+    //             swap(arr[j], arr[j + 1]);
+    //     }
+    // }
+
+    // for (int i = 0; i < n; i++)
+    // {
+    //     int minidx = i;
+    //     for (int j = i; j < n; j++)
+    //     {
+    //         if (arr[j] < arr[minidx])
+    //         {
+    //             minidx = j;
+    //         }
+    //     }
+    //     swap(arr[i], arr[minidx]);
+    // }
+
+
+
+
+    for (auto &&i : arr)
     {
-        int mid = s + (e - s) / 2;
-        if (kokoeating(arr, h, mid))
-        {
-            ans = mid;
-            e = mid - 1;
-        }
-        else
-        {
-            s = mid + 1;
-        }
+        cout << i << " ";
     }
-
-    cout << ans;
 
     return 0;
 }
