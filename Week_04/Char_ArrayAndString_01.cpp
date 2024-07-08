@@ -79,7 +79,7 @@ void validPalindrom(char arr[], int n)
     int j = len - 1;
     while (i <= j)
     {
-        if (arr[i] == arr[j] && arr[j] == arr[i])
+        if (arr[i] == arr[j])
         {
             i++;
             j--;
@@ -101,10 +101,10 @@ void addTwoArray(char arr[], char arr1[], int n)
 int main()
 {
     //! char Arrays
-    // char arr[100];
-    // char arr1[100];
-    // cout << "enter yore name" << endl;
-    // cin >> arr;
+    char arr[100];
+    char arr1[100];
+    cout << "enter yore name" << endl;
+    cin >> arr;
     // cout << "enter your name2" << endl;
     // cin >> arr1;
 
@@ -114,7 +114,7 @@ int main()
     // convertIntoUpperCase(arr, 100);
     // convertIntoLowerCase(arr, 100);
     // reverseCharArray(arr, 100);
-    // validPalindrom(arr, 100);
+    validPalindrom(arr, 100);
     // addTwoArray(arr, arr1, 100)
 
     // cout << "youre name is " << arr << endl;
@@ -158,8 +158,8 @@ int main()
     //     cout << "not found" << endl;
     // }
 
-    string s1 = "Babbar";
-    string s2 = "Babbaaszr";
+    // string s1 = "Babbar";
+    // string s2 = "Babbaaszr";
 
-    cout << s1.compare(s2) << endl;
+    // cout << s1.compare(s2) << endl;
 }

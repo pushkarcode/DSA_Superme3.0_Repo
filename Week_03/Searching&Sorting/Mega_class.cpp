@@ -161,7 +161,7 @@ int main()
     // int n = arr.size();
 
     // int s = 0;
-    // int e = *max_element(arr.begin(), arr.end());
+        // int e = *max_element(arr.begin(), arr.end());
     // int ans = 0;
     // int h = 5;
     // while (s <= e)
