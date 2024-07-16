@@ -39,29 +39,39 @@ int main()
 
     //! Sherlock and Anagrams
 
-    // brute force method
+    // // brute force method
 
-    string str = "mom";
+    // string s = "mom";
 
-    // srep: 1 find all the substring
+    // // srep: 1 find all the substring
 
-    // unordered_map<char, char> mp;
-    vector<char> arr;
-    for (int i = 0; i < str.length(); i++)
-    {
-        for (int j = i; j < str.length(); j++)
-        {
-            char ch = str[j];
-            arr.push_back(ch);
-        }
-    }
+    // unordered_map<string, int> freqMap;
+    // for (int i = 0; i < s.length(); i++)
+    // {
+    //     for (int j = i; j < s.length(); j++)
+    //     {
+    //         string substring = s.substr(i, j - i + 1);
+    //         sort(substring.begin(), substring.end());
+    //         freqMap[substring]++;
+    //     }
+    // }
+
+    // int count = 0;
+    // for (const auto &pair : freqMap)
+    // {
+    //     int freq = pair.second;
+    //     if (freq > 1)
+    //     {
+    //         count += (freq * (freq - 1)) / 2;
+    //     }
+    // }
+    // cout << "count: " << count << endl;
+
+    //?------------optimized way---------------------
 
     
 
-    for (int i = 0; i < arr.size(); i++)
-    {
-        cout << arr[i] << " " << endl;
-    }
+    
 
     return 0;
 }
