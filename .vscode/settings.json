@@ -13,6 +13,7 @@
         "functional": "cpp",
         "array": "cpp",
         "initializer_list": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "limits": "cpp"
     }
 }
