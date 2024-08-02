@@ -19,6 +19,7 @@ int main()
     s.pop();
     cout << s.size() << endl;
     cout << s.top() << endl; 
+    // cout<< s.empty()<<endl;
 
     // swap elements , empty check, that it
     //! itration of elements  not possible in stack

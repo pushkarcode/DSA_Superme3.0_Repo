@@ -239,6 +239,8 @@ int main()
     //     {14, 15, 16, 17},
     // };
     vector<vector<int>> arr(3, vector<int>(3, 0));
+
+    
     int n = arr.size();
     for (int i = 0; i < n; i++)
     {
