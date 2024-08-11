@@ -16,7 +16,7 @@ bool checkTwoStringEqual(string a[], string b[])
 int main()
 {
     string w1[] = {"ab", "c"};
-    string w2[] = {"a", "bcg"};
+    string w2[] = {"a", "bcg "};
     bool check = checkTwoStringEqual(w1, w2);
     cout << "Check two string equal: " << check << endl;
     return 0;
