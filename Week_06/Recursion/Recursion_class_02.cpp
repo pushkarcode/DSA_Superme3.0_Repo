@@ -115,7 +115,29 @@ void printDigit(int n)
     // recursive call
     int digit = n % 10;
     cout << digit << " ";
+}
 
+bool Array_sorted_or_not(vector<int> &arr, int n)
+{
+    for (int i = 1; i < n; i++)
+    {
+        if (arr[i] > arr[i + 1])
+            return false;
+    }
+
+    return true;
+}
+
+bool Array_sorted_or_not_recursion(vector<int> &arr, int n, int index)
+{
+    // base case
+    if (index == n)
+        return true;
+
+    // recursive case
+    if (arr[index] > arr[index + 1])
+        return false;
+    Array_sorted_or_not_recursion(arr, n, index + 1);
 }
 
 int main()
@@ -188,6 +210,16 @@ int main()
     // int nums = 1234;
     // printDigit(nums);
 
+    //!---------- find array is sorted or not
 
-    return 0;
+    vector<int> arr = {1, 2, 3, 4, 5, 6};
+    int n = arr.size();
+
+    // bool ans = Array_sorted_or_not(arr, n);
+    // cout << "Array is sorted: " << (ans ? "Yes" : "No") << endl;
+
+    // bool ans = Array_sorted_or_not_recursion(arr, n, 0);
+    // cout << "Array is sorted: " << (ans ? "Yes" : "No") << endl;
+
+    
 }
