@@ -5,7 +5,8 @@ using namespace std;
 int brute_force(vector<int> &arr)
 {
     int n = arr.size();
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++) 
+
     {
         int lsum = 0;
         int rsum = 0;

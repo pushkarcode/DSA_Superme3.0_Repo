@@ -212,14 +212,14 @@ int main()
 
     //!---------- find array is sorted or not
 
-    vector<int> arr = {1, 2, 3, 4, 5, 6};
+    vector<int> arr = {10, 20, 30, 40, 50, 60};
     int n = arr.size();
 
     // bool ans = Array_sorted_or_not(arr, n);
     // cout << "Array is sorted: " << (ans ? "Yes" : "No") << endl;
 
-    // bool ans = Array_sorted_or_not_recursion(arr, n, 0);
-    // cout << "Array is sorted: " << (ans ? "Yes" : "No") << endl;
+    bool ans = Array_sorted_or_not_recursion(arr, n, 0);
+    cout << "Array is sorted: " << (ans ? "Yes" : "No") << endl;
 
     
 }

@@ -19,7 +19,7 @@ int main()
     int maxSum = sum;
     j++;
     while (j < n)
-    {
+    {   
         sum -= arr[i++];
         sum += arr[j++];
         maxSum = max(maxSum, sum);
