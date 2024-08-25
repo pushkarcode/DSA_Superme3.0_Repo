@@ -24,8 +24,10 @@ int main()
     int size = arr.size();
     int index = 0;
 
-    bool ans = check_sorted(arr, size, index);
-    cout << ans << endl;
+    // bool ans = check_sorted(arr, size, index);
+    // cout << ans << endl;
+
+    //!----------write function for desending order
 
     return 0;
 }
