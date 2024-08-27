@@ -153,18 +153,18 @@ int main()
 
     //!----------(Doop Question Coin change ---> chage your life also)
 
-    vector<int> arr = {1, 2, 5};
-    int amount = 11;
+    // // vector<int> arr = {1, 2, 5};
+    // int amount = 11;
 
-    int ans = coin_check(arr, amount);
-    if (ans == INT_MAX)
-    {
-        cout << "No solution found" << endl;
-    }
-    else
-    {
-        cout << "Min coin change required: " << ans << endl;
-    }
+    // int ans = coin_check(arr, amount);
+    // if (ans == INT_MAX)
+    // {
+    //     cout << "No solution found" << endl;
+    // }
+    // else
+    // {
+    //     cout << "Min coin change required: " << ans << endl;
+    // }
 
     return 0;
 }
