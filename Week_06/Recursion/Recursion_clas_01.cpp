@@ -66,8 +66,8 @@ int main()
     cin >> n;
 
     //!----------- call a function for factroial
-    // int ans = getFactorial(n);
-    // cout << "Factorial: " << n << " is: " << ans << endl;
+    int ans = getFactorial(n);
+    cout << "Factorial: " << n << " is: " << ans << endl;
 
     //?---another expamle of recursion
 
@@ -84,8 +84,8 @@ int main()
     // cout << "Fibonacci series: " << n << "th number is: " << ans << endl;
 
     //*-----sum 1 to n----------
-    int ans = getSum(n);
-    cout << "Sum of 1 to " << n << " is: " << ans << endl;
+    // int ans = getSum(n);
+    // cout << "Sum of 1 to " << n << " is: " << ans << endl;
 
     return 0;
 }
