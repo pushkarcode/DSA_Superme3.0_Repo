@@ -131,17 +131,17 @@ int main()
     //*--------(include _ execlide patteren)
     //!-----------(sub-sequance wala patteren)
 
-    // string str = "gou ";
-    // string output = "";
+    string str = "abc";
+    string output = "";
 
-    // vector<string> ans;
-    // printSubSequence(str, 0, output, ans);
+    vector<string> ans;
+    printSubSequence(str, 0, output, ans);
 
-    // cout << ans.size() << endl;
-    // for (auto i : ans)
-    // {
-    //     cout << i << " ";
-    // }
+    cout << ans.size() << endl;
+    for (auto i : ans)
+    {
+        cout << i << " ";
+    }
 
     //!---------- House robber---------
 
