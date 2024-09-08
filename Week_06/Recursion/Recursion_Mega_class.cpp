@@ -32,7 +32,10 @@ int main()
 
     vector<vector<int>> arr = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 
-    
+     //!------------jump game---
+     //!-----------jump game 2---
+     
+     //?---------triangle--------------
 
     return 0;
 }
