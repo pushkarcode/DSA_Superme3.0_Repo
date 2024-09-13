@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 int main() {
-  //!-------------k-closest element------
+  //!-------------k-closest element------------
 
   return 0;
 }
