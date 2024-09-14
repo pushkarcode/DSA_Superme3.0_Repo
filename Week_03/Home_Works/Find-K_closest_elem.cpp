@@ -4,11 +4,9 @@ using namespace std;
 int main()
 {
   //!-------------k-closest element------------
-  int arr[] = {1, 2, 3};
-  //!use array insted of vector 
-
-
-  
+  // int arr[] = {1, 2, 3};
+  //! use array insted of vector
+  vector<int> arr = {1, 2, 3, 4, 5};
 
   return 0;
 }
