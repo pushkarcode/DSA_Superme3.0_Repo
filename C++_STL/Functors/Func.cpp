@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//!---create custom namespaces for developer uses
 namespace namespace_push
 {
 

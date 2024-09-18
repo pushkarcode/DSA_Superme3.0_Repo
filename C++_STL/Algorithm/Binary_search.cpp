@@ -10,12 +10,14 @@ int main()
     arr.push_back(20);
     arr.push_back(30);
     arr.push_back(40);
-    int target = 40;
-    // auto it = upper_bound(arr.begin(), arr.end(), target);
+    int target = 400;
+    auto it = upper_bound(arr.begin(), arr.end(), target);
+
+    // auto it = lower_bound(arr.begin(), arr.end(), target);
 
     // auto it = equal_range(arr.begin(), arr.end(), target);
 
-    // cout << *it << endl;
+    cout << *it << endl;
 
     return 0;
 }
