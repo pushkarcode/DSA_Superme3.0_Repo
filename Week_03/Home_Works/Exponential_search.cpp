@@ -29,14 +29,33 @@ int expo_search(vector<int> &arr, int n, int x)
 
     return bs(arr, i / 2, min(i, n - 1), x);
 }
+
+int infinte_search(vector<int> &arr, int n, int x)
+{
+    int l = 0, h = 1;
+    while (arr[h] <= x)
+    {
+        l = h;
+        h = 2 * h;
+    }
+
+    return bs(arr, l / 2, min(h, n - 1), x);
+}
+
 int main()
 {
     //?other name---(doubling sum) (starlic sum)
+    // vector<int> arr = {3, 4, 5, 6, 11, 13, 14, 15, 56, 70};
+    // int n = arr.size();
+    // int x = 13;
+    // int ans = expo_search(arr, n, x);
+    // cout << "ans = " << ans << endl;
+
+    //!------------search in infinite array
     vector<int> arr = {3, 4, 5, 6, 11, 13, 14, 15, 56, 70};
     int n = arr.size();
-    int x = 13;
-    int ans = expo_search(arr, n, x);
+    int x = 15;
+    int ans = infinte_search(arr, n, x);
     cout << "ans = " << ans << endl;
-
     return 0;
 }
