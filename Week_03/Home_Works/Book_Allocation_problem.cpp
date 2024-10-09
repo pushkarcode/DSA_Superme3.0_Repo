@@ -4,6 +4,6 @@ using namespace std;
 int main()
 {
 
-  //karna hei     
+  //karna hei  aaj to     
     return 0;
 }
