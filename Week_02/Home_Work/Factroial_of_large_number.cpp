@@ -13,7 +13,7 @@ int main()
     {
         for (int j = 0; j < ans.size(); j++)
         {
-            int x = ans[j] * i + carry;
+            int x = ans[j] *  i + carry;
             ans[j] = x % 10;
             carry = x / 10;
         }
