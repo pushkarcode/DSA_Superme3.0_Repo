@@ -8,7 +8,7 @@ int main()
   // geek for geek problem allocated books
   vector<int> arr = {1, 2, 3, 4, 5};
    //other thing okay baad mei increment or chal rha hei sdfbvd
-   fthjyg dfhfdsv aefdwasc qeasdfc
+   //if there was diwali celebration.
 
   return 0;
 }
