@@ -9,6 +9,7 @@ int main()
   vector<int> arr = {1, 2, 3, 4, 5};
    //other thing okay baad mei increment or chal rha hei sdfbvd
    //if there was diwali celebration.sdfxbv wesgvrsd
+   //!dgjnkdsf sdgkjesad 
 
   return 0;
 }
