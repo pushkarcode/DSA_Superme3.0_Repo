@@ -119,7 +119,7 @@ int main()
     // find_max(arr, size);
     // count_Zero_Ones(arr, size);
     // Extream_Print(arr, size);
-    swap_arr(arr, size);
+    // swap_arr(arr, size);
     // Reverse_arr(arr, size);
 
     return 0;

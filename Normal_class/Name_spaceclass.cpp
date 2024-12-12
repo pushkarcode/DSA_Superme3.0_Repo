@@ -19,32 +19,32 @@
 
 #include <iostream>
 using namespace std;
-// void party()
-// {
-//     cout << "party with normal people" << endl;
-//     return;
-// }
-// void drive()
-// {
-//     cout << "drive with normal people" << endl;
-//     return;
-// }
+void party()
+{
+    cout << "party with normal people" << endl;
+    return;
+}
+void drive()
+{
+    cout << "drive with normal people" << endl;
+    return;
+}
 
-// namespace Pushkar
-// {
-//     void party()
-//     {
-//         cout << "party with pushkar" << endl;
-//         return;
-//     }
+namespace Pushkar
+{
+    void party()
+    {
+        cout << "party with pushkar" << endl;
+        return;
+    }
 
-//     void drive()
-//     {
-//         cout << "drive with pushkar" << endl;
-//         return;
-//     }
+    void drive()
+    {
+        cout << "drive with pushkar" << endl;
+        return;
+    }
 
-// }
+}
 
 // ! check the prime nuber
 
@@ -63,13 +63,13 @@ bool checkprime(int N)
 }
 int main()
 {
-    // party();
-    // drive();
-    // cout<<"now some awsome stuff with pushlkar"<<endl;
+    party();
+    drive();
+    cout<<"now some awsome stuff with pushkar"<<endl;
 
-    // Pushkar::party();
-    // Pushkar::drive();
-    // return 0;
+    Pushkar::party();
+    Pushkar::drive();
+    return 0;
 
     // int n;
     // cin >> n;
@@ -87,7 +87,7 @@ int main()
     //         cout<<"not prime:" << i << endl;
     //     }
     // }
-    cout<<~(5);
+    // cout<<~(5);
 
 
 
