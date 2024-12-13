@@ -2,15 +2,15 @@
 #include <limits.h>
 using namespace std;
 
-bool LinearSearch(int arr[], int size, int target)
+void LinearSearch(int arr[], int size, int target)
 {
 
     for (int i = 0; i < size; i++)
     {
         if (arr[i] == target)
-            return 1;
+            cout << "element found" << endl;
     }
-    return 0;
+    cout << "not found" << endl;
 }
 
 void find_max(int arr[], int size)
@@ -26,6 +26,15 @@ void find_max(int arr[], int size)
     }
     cout << maxi << endl;
 }
+// void max(int arr[], int size)
+// {
+//     int maxi = INT_MIN;
+//     for (int i = 0; i < size; i++)
+//     {
+//         maxi = max(arr[i], maxi);
+//     }
+//     cout<<"maxi = "<<maxi<<endl;
+// }
 
 void count_Zero_Ones(int arr[], int size)
 {
@@ -116,7 +125,9 @@ int main()
     // int arr[] = {0, 1, 1, 0, 0, 1, 1};
     int arr[] = {10, 20, 30, 40, 50, 60};
     int size = 6;
-    // find_max(arr, size);
+    int target = 40;
+    // LinearSearch(arr, size, target);
+    find_max(arr, size);
     // count_Zero_Ones(arr, size);
     // Extream_Print(arr, size);
     // swap_arr(arr, size);
