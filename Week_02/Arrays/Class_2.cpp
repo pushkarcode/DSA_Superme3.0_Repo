@@ -249,7 +249,7 @@ pair<int, int> checkTwoSum(int arr[], int n, int target)
     }
     // agar aap yha tak pohoch gye
     // iska matlab, koi bhi pair target k equal nahi mila
-    //calo chaneg aa gya
+    //calo chaneg aa gya sdfb sffs 
     // iska matlab return false karo
     return ans;
 }
