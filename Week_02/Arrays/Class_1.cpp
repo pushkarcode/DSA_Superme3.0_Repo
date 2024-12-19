@@ -1,7 +1,7 @@
 #include <iostream>
 #include <limits.h>
 using namespace std;
-
+//add file in that
 void LinearSearch(int arr[], int size, int target)
 {
 
