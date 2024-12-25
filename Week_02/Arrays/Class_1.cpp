@@ -26,7 +26,7 @@ void find_max(int arr[], int size)
     }
     cout << maxi << endl;
 }
-// void max(int arr[], int size) day like 
+// void max(int arr[], int size) day like that was
 // {
 //     int maxi = INT_MIN;
 //     for (int i = 0; i < size; i++)
