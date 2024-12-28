@@ -26,7 +26,7 @@ void find_max(int arr[], int size)
     }
     cout << maxi << endl;
 }
-// void max(int arr[], int size) day like that was sdvsd dsf a
+// void max(int arr[], int size) dsf a cbds  erdfhgfesd 
 // {
 //     int maxi = INT_MIN;
 //     for (int i = 0; i < size; i++)
