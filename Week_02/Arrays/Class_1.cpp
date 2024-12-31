@@ -89,6 +89,8 @@ void swap_arr(int arr[], int size)
     }
 }
 
+//*--------top interview qwuestion-----------
+
 void Reverse_arr(int arr[], int size)
 {
 }
