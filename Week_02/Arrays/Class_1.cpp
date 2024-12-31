@@ -36,6 +36,8 @@ void find_max(int arr[], int size)
 //     cout<<"maxi = "<<maxi<<endl;
 // }
 
+//!----that how this function works ----
+
 void count_Zero_Ones(int arr[], int size)
 {
     int zero = 0;
