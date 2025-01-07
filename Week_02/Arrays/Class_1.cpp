@@ -90,7 +90,7 @@ void swap_arr(int arr[], int size)
 }
 
 //*--------top interview qwuestion----------- 
-//!-- latrst question for each setion for tha sd kj sdjf shaf 
+//!-- latrst question for each setion for tha sd kj sdjf shaf  sdhf sfgd 
 
 void Reverse_arr(int arr[], int size)
 {
