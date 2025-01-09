@@ -89,7 +89,8 @@ void swap_arr(int arr[], int size)
     }
 }
 
-//*--------top interview qwuestion----------- 
+//*--------top interview qwuestion-----------  
+//! main thin is that
 
 void Reverse_arr(int arr[], int size)
 {
