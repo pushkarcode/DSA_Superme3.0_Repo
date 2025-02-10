@@ -105,7 +105,7 @@ int main()
     //     cout << arr[i] << " ";
     //    }
 
-    // ! Always do its a good practice
+    // ! Always do its a good practice sf ef sdfsjd 
     // int arr[100];
     // int size;
     // cout << "Enter the Size of array" << endl;
