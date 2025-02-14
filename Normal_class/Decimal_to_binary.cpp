@@ -17,6 +17,7 @@ int main()
     cout<<binary<<endl;
 
     // ! Bitwise method
+//* this was more optimal ways
 
     // while (n)
     // {
