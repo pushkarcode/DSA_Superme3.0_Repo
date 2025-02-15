@@ -1,2 +1,4 @@
-    // vector<int> arr = {4, 1, 2, 1, 2};
-    // int n = arr.size();
+
+    // int arr[6] = {10, 20, 30, 40, 50, 60};
+    // int size = 6;
+    // int shift = 3;

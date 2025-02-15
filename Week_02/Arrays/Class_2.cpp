@@ -58,7 +58,7 @@ void SortZeroAndOne(int arr[], int n)
     //         one++;
     //     }
     // }
-
+    //!----------as a brgineer used this but in interview dont use that method extra space requried
     // for (int i = 0; i < zero; i++)
     //     arr[i] = 0;
 
@@ -70,20 +70,41 @@ void SortZeroAndOne(int arr[], int n)
 
     //! therid way 2 pointer
 
+    // int i = 0, j = n - 1;
+    // while (i < j)
+    // {
+    //     while (arr[i] == 0 && i < j)
+    //         i++;
+    //     while (arr[j] == 1 && i < j)
+    //         j--;
+    //     if (i < j)
+    //     {
+    //         arr[i] = 0;
+    //         arr[j] = 1;
+    //         i++;
+    //         j--;
+    //     }
+    // }
+
+    //!--------desi way to slove this problem
+
     int i = 0, j = n - 1;
     while (i < j)
     {
-        while (arr[i] == 0 && i < j)
-            i++;
-        while (arr[j] == 1 && i < j)
-            j--;
-        if (i < j)
+        if (arr[i] == 0 && arr[j] == 1)
         {
-            arr[i] = 0;
-            arr[j] = 1;
             i++;
             j--;
         }
+        else
+        {
+            swap(arr[i++], arr[j--]);
+        }
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
     }
 }
 
@@ -164,8 +185,27 @@ void SortZeroAndOneAndTwo(int arr[], int n)
 
     // ! secand way (Ductch national flag algo)
 
+    // int low = 0, mid = 0, high = n - 1;
+    // while (mid <= high)                                    //*  place of mid also use low
+    // {
+    //     if (arr[mid] == 0)
+    //     {
+    //         swap(arr[low], arr[mid]);
+    //         mid++, low++;
+    //     }
+    //     else if (arr[mid] == 1)
+    //     {
+    //         mid++;
+    //     }
+    //     else if (arr[mid] == 2)
+    //     {
+    //         swap(arr[mid], arr[high]);
+    //         high--;
+    //     }
+    // }
+
     int low = 0, mid = 0, high = n - 1;
-    while (mid <= high)
+    while (low <= high)
     {
         if (arr[mid] == 0)
         {
@@ -173,14 +213,13 @@ void SortZeroAndOneAndTwo(int arr[], int n)
             mid++, low++;
         }
         else if (arr[mid] == 1)
-        { 
+        {
             mid++;
         }
-        else if (arr[mid] == 2)
-        {
-            swap(arr[mid], arr[high]);
-            high--;
-        }
+        else if (arr[mid == 2] {
+                     swap(arr[mid], arr[high]);
+                     high--;
+                 })
     }
 }
 
@@ -249,9 +288,9 @@ pair<int, int> checkTwoSum(int arr[], int n, int target)
     }
     // agar aap yha tak pohoch gye
     // iska matlab, koi bhi pair target k equal nahi mila
-    //calo chaneg aa gya sdfb sffs  sdfhg sdfhdnb sdgd sdgh wedf sdfgsdfb sdfhg sdhdgs asgrf wersgf sdge sdfhg srdhf sfdb 
+    // calo chaneg aa gya sdfb sffs  sdfhg sdfhdnb sdgd sdgh wedf sdfgsdfb sdfhg sdhdgs asgrf wersgf sdge sdfhg srdhf sfdb
     // iska matlab return false karo
-    //!--sdgj sdfgd 
+    //!--sdgj sdfgd
     return ans;
 }
 
@@ -394,7 +433,9 @@ int main()
 
     // int ans = findUnique(arr, n);
     // int ans = findUnique_2(arr, n);
-    // SortZeroAndOne(arr, n);
+    int arr[6] = {0, 1, 1, 0, 0, 1};
+    int n = 6;
+    SortZeroAndOne(arr, n);
     // filp_Bit(arr, n);
     // filp_Bit_to_negative(arr, n);
     // Two_Complement(arr, n);
@@ -410,23 +451,22 @@ int main()
 
     // cout << "Unique element : " << ans << endl;
 
-    int arr[] = {10, 20, 30, 40, 50, 60};
-    int n = 6;
-    int shift;
-    cout << "Number of elements that Shift" << endl;
-    cin >> shift;
+    // int arr[] = {10, 20, 30, 40, 50, 60};
+    // int n = 6;
+    // int shift;
+    // cout << "Number of elements that Shift" << endl;
+    // cin >> shift;
 
-    cout << "Array Before Shift" << endl;
-    for (int i = 0; i < n; i++)
-    {
-        cout << arr[i] << " ";
-    }
-    rotateArray(arr, n, shift);
+    // cout << "Array Before Shift" << endl;
+    // for (int i = 0; i < n; i++)
+    // {
+    //     cout << arr[i] << " ";
+    // }
+    // rotateArray(arr, n, shift);
 
-
-    cout <<endl<< "Array After Shift" << endl;
-    for (int i = 0; i < n; i++)
-    {
-        cout << arr[i] << " ";
-    }
+    // cout <<endl<< "Array After Shift" << endl;
+    // for (int i = 0; i < n; i++)
+    // {
+    //     cout << arr[i] << " ";
+    // }
 }
