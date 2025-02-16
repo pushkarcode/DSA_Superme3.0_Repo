@@ -168,15 +168,17 @@ int main()
     //     cout << arr[i] << " ";
     // }
 
-    vector<int> v;
-    for (int i = 0; i < 30; i++)
-    {
-        v.push_back(i);
-    }
-    for (auto i : v)
-    {
-        cout << i << " ";
-    }
+    // vector<int> v;
+    // for (int i = 0; i < 30; i++)
+    // {
+    //     v.push_back(i);
+    // }
+    // for (auto i : v)
+    // {
+    //     cout << i << " ";
+    // }
+
+     //!start day - 03
 
     return 0;
 }
