@@ -178,7 +178,34 @@ int main()
     //     cout << i << " ";
     // }
 
-     //!start day - 03
+    //! start day - 03
+
+    // vector<vector<int>> arr(4, vector<int>(4, 0));
+    // for (auto i : arr)
+    // {
+    //     for (auto j : i)
+    //     {
+    //         cout << j << " ";
+    //     }
+    //     cout << endl;
+    // }
+
+    int arr[3][3] = {{1, 2, 3},
+                     {4, 5, 6},
+                     {7, 8, 9}};
+
+    int n = 3;
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            if (i == j)
+            {
+                cout << arr[i][j] << " ";
+            }
+        }
+        cout << endl;
+    }
 
     return 0;
 }
