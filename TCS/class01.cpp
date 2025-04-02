@@ -38,5 +38,7 @@ using namespace std;
 //* 2-D array input
 
 int main() {
-     
+    
+     int i = 9;
+    data name = 9;
 }
