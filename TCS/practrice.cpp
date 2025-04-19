@@ -3,41 +3,41 @@
 // using namespace std;
 // int main()
 // {
-//     // string s;
-//     // getline(cin, s);
+    // string s;
+    // getline(cin, s);
 
-//     // int star_cny = 0;
-//     // int hash_cnt = 0;
+    // int star_cny = 0;
+    // int hash_cnt = 0;
 
-//     // for (char c : s)
-//     // {
-//     //     if (c == '*')
-//     //     {
-//     //         star_cny++;
-//     //     }
-//     //     else if (c == '#')
-//     //     {
-//     //         hash_cnt++;
-//     //     }
-//     // }
+    // for (char c : s)
+    // {
+    //     if (c == '*')
+    //     {
+    //         star_cny++;
+    //     }
+    //     else if (c == '#')
+    //     {
+    //         hash_cnt++;
+    //     }
+    // }
 
-//     // cout << star_cny - hash_cnt << "\n";
+    // cout << star_cny - hash_cnt << "\n";
 
-//     // return 0;
+    // return 0;
 
-//     // vector<int> arr = {7, 4, 8, 2, 9};
+    // vector<int> arr = {7, 4, 8, 2, 9};
 
-//     // int count = 1;
-//     // int maxi = arr[0];
-//     // for (int i = 0; i < arr.size(); i++)
-//     // {
-//     //     if (arr[i] > maxi)
-//     //     {
-//     //         maxi = arr[i];
-//     //         count++;
-//     //     }
-//     // }
-//     // cout << "count: " << count << endl;
+    // int count = 1;
+    // int maxi = arr[0];
+    // for (int i = 0; i < arr.size(); i++)
+    // {
+    //     if (arr[i] > maxi)
+    //     {
+    //         maxi = arr[i];
+    //         count++;
+    //     }
+    // }
+    // cout << "count: " << count << endl;
 
 //     int n;
 //     cin >> n;
