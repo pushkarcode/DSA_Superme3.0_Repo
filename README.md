@@ -6,3 +6,4 @@
 #String
 
 - Advanced topics
+- binary search
